@@ -4,7 +4,7 @@ dotenv.config();
 
 (async () => {
   try {
-    const DATABASE_NAME = process.env.DATABASE_NAME || "chargemap";
+    const DATABASE_NAME = process.env.DATABASE_NAME || "sssf";
     await mongoose.connect(process.env.DB_URL, {
       dbName: DATABASE_NAME,
       useNewUrlParser: true,
